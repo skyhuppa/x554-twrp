@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/tecno/w4
+LOCAL_PATH := device/infinix/x554
 
 
 # Architecture
@@ -41,14 +41,14 @@ BOARD_KERNEL_CMDLINE += \
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS  := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board v3D39-0
-TARGET_PREBUILT_KERNEL := device/tecno/w4/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/infinix/x554/prebuilt/kernel
 
 # TARGET IMAGES
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # RECOVERY
-TARGET_RECOVERY_FSTAB := device/tecno/w4/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/infinix/x554/recovery/root/etc/recovery.fstab
 
 
 # PARTTIONS
