@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_w4.mk
+    $(LOCAL_DIR)/omni_x554.mk
 
