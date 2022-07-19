@@ -1,2 +1,2 @@
-add_lunch_combo omni_w4-eng
-add_lunch_combo omni_w4-userdebug
+add_lunch_combo omni_x554-eng
+add_lunch_combo omni_x554-userdebug
