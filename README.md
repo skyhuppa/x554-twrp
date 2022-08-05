@@ -10,7 +10,7 @@ Add to `.repo/local_manifests/x554.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<project path="device/infinix/x554" name="iykequame/android_device_infimix_x554" remote="github" revision="master" />
+	<project path="device/infinix/x554" name="skyhuppa/android_device_infimix_x554" remote="github" revision="master" />
 
 </manifest>
 ```
