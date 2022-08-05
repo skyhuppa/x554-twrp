@@ -10,7 +10,7 @@ Add to `.repo/local_manifests/x554.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<project path="device/tecno/w4" name="iykequame/android_device_infimix_x554" remote="github" revision="master" />
+	<project path="device/infinix/x554" name="iykequame/android_device_infimix_x554" remote="github" revision="master" />
 
 </manifest>
 ```
@@ -19,7 +19,7 @@ Then run `repo sync` or  `repo sync --force-sync`  to check it out.
 
 or
 
-`git clone https://github.com/iykequame/android_device_infimix_x554.git -b master  device/tecno/w4`
+`git clone https://github.com/skyhuppa/x554-twrp.git -b master  device/infinix/x554`
 
 
 # How To Compile
