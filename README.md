@@ -1,10 +1,10 @@
-# infinix_x544_device_tree
+# infinix_x554_device_tree
 
 To clone tree automatically, then;
  `cd .repo && mkdir local_manifests`
  `cd local_manifests`
 
-Add to `.repo/local_manifests/w4.xml`:
+Add to `.repo/local_manifests/x554.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
