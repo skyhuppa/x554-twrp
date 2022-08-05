@@ -10,7 +10,7 @@ Add to `.repo/local_manifests/w4.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<project path="device/tecno/w4" name="iykequame/android_device_tecno_w4" remote="github" revision="master" />
+	<project path="device/tecno/w4" name="iykequame/android_device_infimix_x554" remote="github" revision="master" />
 
 </manifest>
 ```
@@ -19,7 +19,7 @@ Then run `repo sync` or  `repo sync --force-sync`  to check it out.
 
 or
 
-`git clone https://github.com/iykequame/android_device_tecno_w4.git -b master  device/tecno/w4`
+`git clone https://github.com/iykequame/android_device_infimix_x554.git -b master  device/tecno/w4`
 
 
 # How To Compile
@@ -27,7 +27,7 @@ or
 ```
  1. source build/envsetup.sh
  2. lunch
-  and select your device from menu [select omni_w4-userdebug]
+  and select your device from menu [select omni_x554-userdebug]
  3. mka -j5 recoveryimage
 ```
 It will take time to compile your build/compile
