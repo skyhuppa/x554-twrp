@@ -22,6 +22,6 @@ $(call inherit-product, device/infinix/x554/full_x554.mk)
 PRODUCT_NAME := omni_x554
 
 # Blacklist Properties
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.build.date \
-    ro.build.date.utc
+#PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+ #   ro.build.date \
+ #   ro.build.date.utc
