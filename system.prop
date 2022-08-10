@@ -1,3 +1,8 @@
-#
-# Imported from build.prop
-#
+ro.product.brand=Infinix
+ro.product.name=INFINIX-X554
+ro.product.device=x554
+ro.product.mod_device=x554
+ro.build.product=Infinix
+sys.usb.controller=a800000.dwc3
+sys.usb.rndis.func.name=rndis_bam
+sys.usb.rmnet.func.name=rmnet_bam
