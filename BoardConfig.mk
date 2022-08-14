@@ -16,6 +16,8 @@
 
 LOCAL_PATH := device/infinix/x554
 
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm
@@ -42,7 +44,6 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS  := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board v3D39-0
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-BOARD_SEPOLICY_VERS := 1.0
 TARGET_PREBUILT_KERNEL := device/infinix/x554/prebuilt/Image.gz-dtb
 
 # TARGET IMAGES
@@ -50,7 +51,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # RECOVERY
-TARGET_RECOVERY_FSTAB := device/infinix/x554/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
 
 
 # PARTTIONS
