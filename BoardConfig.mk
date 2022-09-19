@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/X554
+DEVICE_PATH := device/infinix/x554
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -31,7 +31,7 @@ TARGET_BOARD_SUFFIX := _32
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := X554
+TARGET_OTA_ASSERT_DEVICE := x554
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -59,7 +59,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 # TARGET_KERNEL_SOURCE := kernel/infinix/X554
-# TARGET_KERNEL_CONFIG := infinix_X554_defconfig
+# TARGET_KERNEL_CONFIG := infinix_x554_defconfig
 
 # Ramdisk compression
 # LZMA_RAMDISK_TARGETS := recovery
