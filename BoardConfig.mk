@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/Infinix/X554
+DEVICE_PATH := device/infinix/X554
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -27,7 +27,7 @@ TARGET_2ND_ARCH_VARIANT := armv7-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
-TARGET_BOARD_SUFFIX := _86
+TARGET_BOARD_SUFFIX := _32
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
